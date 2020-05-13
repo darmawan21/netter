@@ -93,8 +93,6 @@ body {
     color: #c1c1c1;
 }
 
-
-
 .carousel-multi-item-2 .col-3 {
     float: left;
     width: 25%;
@@ -142,7 +140,7 @@ section {
     min-height: 670px;
 }
 
-/* Destop Version */
+/* Dekstop Version */
 @media (min-width: 992px) {
 
     .nav-link {
@@ -166,8 +164,8 @@ section {
     }
     
     .about img {
-        width: 259px;
-        height: 389px;
+        width: 295px;
+        height: 295px;
     }
 
     .slide {
@@ -178,4 +176,60 @@ section {
         margin-top: 100px;
     }
 
+}
+
+/* Navbar Scroll */
+nav.black {
+    background:rgba(0, 0, 0, 0.9);
+}
+
+/* About */
+.text-shadow-about {
+    color: #676767;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 88px;
+    opacity: 0.1;
+    margin-top: -85px;
+}
+
+/* Project */
+.project .row .col-lg-4 {
+    margin-top: -48px;
+}
+
+.text-shadow-project {
+    color: #676767;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 88px;
+    opacity: 0.1;
+    margin-top: -50px;
+    margin-right: -165px;
+}
+
+/* Our Team */
+#team .container {
+    margin-top: -85px;
+}
+
+.text-shadow-ourteam {
+    color: #676767;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 88px;
+    opacity: 0.1;
+    margin-top: -50px;
+    margin-left: -115px;
+}
+
+/* Tools */
+.text-shadow-tools {
+    color: #676767;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 88px;
+    opacity: 0.1;
+    margin-top: -85px;
+    margin-right: -275px;
 }

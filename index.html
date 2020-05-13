@@ -16,6 +16,9 @@
     <!-- CSS -->
     <link rel="stylesheet" href="css/style.css">
 
+    <!-- Icon -->
+    <script src="https://kit.fontawesome.com/4ea9a2a518.js" crossorigin="anonymous"></script>
+
     <title>NETTER.CO</title>
 </head>
 
@@ -62,17 +65,25 @@
             <div class="row">
                 <div class="col-lg">
                     <h2 class="text-center judul">Who are we ?</h2>
+                    <h1 class="text-center text-shadow-about">Who are we ?</h1>
                 </div>
             </div>
             <div class="row justify-content-center">
-                <div class="col-5">
+                <div class="col-4">
                     <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, diam nonumy eirmod tempor invidunt ut labore
                         et dolore Lorem ipsum dolor sit amet, consetetur sadipscing elitr, diam nonumy eirmod tempor
                         invidunt ut labore et dolore. Lorem ipsumdolor sit amet, consetetur sadipscing elitr, diam nonumy
                         eirmod tempor invidunt ut labore et dolore.</p>
                 </div>
-                <div class="col-5">
-                    <img src="img/about.png" alt="about" class="img-fluid">
+                <div class="col-2">
+                    <p>
+                        <i class="fas fa-code fa-3x" style="color: white"></i><br><br>Web Developer<br><br>
+                        <i class="fas fa-cube fa-3x" style="color: white"></i><br><br>3D Design<br><br>
+                        <i class="fas fa-paint-brush fa-3x" style="color: white"></i><br><br>Graphic Design
+                    </p> 
+                </div>
+                <div class="col-4">
+                    <p><img src="img/about.png" alt="about" class="img-fluid"></div></p>
                 </div>
             </div>
         </div>
@@ -85,6 +96,7 @@
             <div class="row">
                 <div class="col-lg">
                     <h2 class="text-center judul">Project</h2>
+                    <h1 class="text-right text-shadow-project">Project</h1>
                 </div>
             </div>
 
@@ -131,6 +143,7 @@
         <div class="container">
         <!-- Section heading -->
         <h2 class="h1-responsive font-weight-bold my-5 judul">Our Team</h2>
+        <h1 class="text-left text-shadow-ourteam">Our Team</h1>
         <!-- Section description -->
 
         <!-- Grid row -->
@@ -228,7 +241,8 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg">
-                    <h2 class="text-center judul">Tool</h2>
+                    <h2 class="text-center judul">Tools</h2>
+                    <h1 class="text-center text-shadow-tools">Tools</h1>
                 </div>
             </div>
     
@@ -466,6 +480,20 @@
         integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
         crossorigin="anonymous"></script>
     <script src="js/script.js"></script>
+
+    <!-- Navbar Scroll-->
+    <script>
+        $(window).on('scroll', function(){
+            if($(window).scrollTop())
+            {
+                $('nav').addClass('black');
+            }
+            else
+            {
+                $('nav').removeClass('black');
+            }
+        })
+    </script>
 </body>
 
 </html>
